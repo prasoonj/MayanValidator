@@ -37,7 +37,6 @@ public class GenericValidator {
 			e.printStackTrace();
 		}
 		JSONObject fileJsonObject = JSONObject.fromObject(jsonFile);
-		JSONObject fileJsonObject = JSONObject.fromObject(jsonString);
 		JSONObject validationsJsonObject = (JSONObject) fileJsonObject
 				.get("validations");
 		JSONObject modelJsonObject = (JSONObject) validationsJsonObject
