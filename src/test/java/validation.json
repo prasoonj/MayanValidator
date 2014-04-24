@@ -1,5 +1,5 @@
 { "validations": 
-	{"com.cc.target.folder.model.Folder": 
+	{"com.test.project.folder.model.Folder": 
 		{
 			"id":[
 				{"rejectIfEmptyOrWhitespace" : "Folder Id is mandatory"},

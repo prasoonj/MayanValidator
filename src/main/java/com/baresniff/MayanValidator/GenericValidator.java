@@ -36,8 +36,7 @@ public class GenericValidator {
 			System.out.println("File was not found");
 			e.printStackTrace();
 		}
-		// JSONObject fileJsonObject = JSONObject.fromObject(jsonFile);
-		String jsonString = "{ \"validations\": {\"com.cc.target.folder.model.Folder\": {\"id\":[{\"rejectIfEmptyOrWhitespace\" : \"Folder Id is mandatory\"},{\"test2\" : \"error2\"}]}}} ";
+		JSONObject fileJsonObject = JSONObject.fromObject(jsonFile);
 		JSONObject fileJsonObject = JSONObject.fromObject(jsonString);
 		JSONObject validationsJsonObject = (JSONObject) fileJsonObject
 				.get("validations");
