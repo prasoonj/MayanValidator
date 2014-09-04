@@ -7,7 +7,7 @@ The Json validation file can be easily updated by a member of the project's func
 Compiling:
 From the root of the project (where the .pom file is present) execute 
 
-$ mvn install
+    $ mvn install
 
 Usage:
 Provide the required validations to be used on the Models in a Json file (the validation.json file at src/test/java can be used as a reference point).
